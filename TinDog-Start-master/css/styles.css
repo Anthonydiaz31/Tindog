@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #afafaf;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+
+
+
+/* Headings */
+.largest-heading {
+    font-family: 'Tiro Devanagari Hindi', serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Features */
+
+#features {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+
+.feature-titles {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.icons {
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin-top: 25%;
+    margin-bottom: 5%;
+   
+    
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+
+/* Navbar */
+.container-fluid {
+    padding:3% 15%;
+}
+
+.navbar {
+    padding:0 0 4.5rem;
+    
+}
+
+.navbar-brand {
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    
+}
+
+.nav-list {
+    margin-left: 250%;
+}
+
+#title {
+    background-color: #FD3A73;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    
+    
+}
+
+/* download buttons */
+.download-button {
+    margin-top: 7%;
+    margin-right: 2%;
+    margin-bottom: 8%;
+}
+
+/* Title Image */
+.title-image {
+   width: 60%;
+    transform: rotate(25deg);
+    margin-left: 10%;
+    
+}
+
+/* Testimonials */
+#testimonials {
+    
+    text-align: center;
+    background-color: #FD3A73;
+    color: white;
+    font-weight: 900;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.carousel-item {
+        padding:10% 12%;
+    }
+
+
+.dogs {
+        border-radius: 100%;
+        width: 15%;
+        margin: 20px;
+}
+
+
+/* Press */
+
+#press {
+    background-color: #FD3A73;
+    text-align: center;
+    padding-bottom: 4%;
+    
+}
+
+.press-img {
+    width: 15%;
+    padding: 20px 20px 50px;
+   
+}
+
+/* Pricing cards */
+
+#pricing {
+    padding: 100px;
+}
+
+
+
+.price-desc {
+    text-align: center;
+    font-weight: 600;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+
+/* Call to Action */
+#cta {
+    background-color:#FD3A73;    
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+/* Footer */
+
+#footer {
+    padding: 5%;
+    text-align: center;
+}
+
+#footer-heading{
+font-size: 3.5rem;
+}
+
+.foot-marg {
+    margin: 20px 15px;
+}
+
+/* Media Query */
+@media (max-width:990px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+}
